@@ -1,0 +1,33 @@
+/* Target pretty all the elements that starts with .mtk */
+[class^='mtk'], .detected-link {
+  font-family: 'Operator Mono Medium';
+  font-style: italic;
+}
+
+/* Some stuff I want as regular style */
+.mtk3,
+.mtk8 {
+  font-family: 'Operator Mono Medium';
+  font-style: normal;
+}
+
+/* Ligatures */
+.mtk6,
+.mtk13,
+.mtk15 {
+  font-family: 'Fira Code';
+  font-style: normal;
+}
+
+/* Underline */
+.mtku {
+  text-decoration: underline;
+}
+/* Italic */
+.mtki {
+  font-style: italic;
+}
+/* Bold */
+.mtkb {
+  font-weight: bold;
+}
